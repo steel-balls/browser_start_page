@@ -1,0 +1,111 @@
+.steelballs-container {
+  width: 100%;
+  display: flex;
+  overflow: auto;
+  min-height: 100vh;
+  align-items: flex-end;
+  flex-direction: column;
+  justify-content: flex-end;
+  background-color: #000000;
+}
+.steelballs-textinput {
+  top: 642px;
+  left: 0px;
+  color: #ffffff;
+  right: 0px;
+  width: 753px;
+  height: 65px;
+  margin: auto;
+  position: absolute;
+  transition: 0.3s;
+  border-color: rgba(255, 0, 0, 0.74);
+  border-width: 0.2px;
+  border-radius: 35px;
+  background-color: #000000;
+}
+.steelballs-textinput:focus {
+  margin: auto;
+}
+.steelballs-container1 {
+  top: 728px;
+  flex: 0 0 auto;
+  left: 0px;
+  right: 0px;
+  width: auto;
+  height: auto;
+  margin: auto;
+  display: flex;
+  position: absolute;
+  align-self: center;
+  align-items: center;
+  justify-content: center;
+}
+.steelballs-link {
+  display: contents;
+}
+.steelballs-pasted-image {
+  align-self: flex-start;
+  text-decoration: none;
+}
+.steelballs-link1 {
+  display: contents;
+}
+.steelballs-pasted-image1 {
+  align-self: flex-start;
+  text-decoration: none;
+}
+.steelballs-link2 {
+  display: contents;
+}
+.steelballs-pasted-image2 {
+  align-self: flex-start;
+  text-decoration: none;
+}
+.steelballs-pasted-image3 {
+  top: 100px;
+  left: 0px;
+  right: 0px;
+  width: 508px;
+  height: 495px;
+  margin: auto;
+  position: absolute;
+  align-self: center;
+}
+.steelballs-text {
+  color: rgb(255, 255, 255);
+  padding: 20px;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+}
+@media(max-width: 767px) {
+  .steelballs-textinput {
+    width: 462px;
+    height: 58px;
+  }
+  .steelballs-pasted-image3 {
+    width: 469px;
+    height: 440px;
+  }
+}
+@media(max-width: 479px) {
+  .steelballs-textinput {
+    top: 556px;
+    left: 0px;
+    right: 0px;
+    width: 432px;
+    height: 51px;
+    margin: auto;
+  }
+  .steelballs-container1 {
+    top: 659px;
+    left: 0px;
+    right: 0px;
+    margin: auto;
+    margin-right: auto;
+  }
+  .steelballs-pasted-image3 {
+    width: 416px;
+    height: 387px;
+  }
+}
